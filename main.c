@@ -289,6 +289,54 @@ int main() {
       hfov,
       vfov,
       renderer,
+      (struct Square){
+        .pos=(struct Vec3){.x=0,.y=1,.z=-20},
+        .width=2
+      }
+    );
+    Square_render(
+      camera,
+      camera_angle,
+      0,
+      hfov,
+      vfov,
+      renderer,
+      (struct Square){
+        .pos=(struct Vec3){.x=0,.y=1,.z=-20},
+        .width=3
+      }
+    );
+    Square_render(
+      camera,
+      camera_angle,
+      0,
+      hfov,
+      vfov,
+      renderer,
+      (struct Square){
+        .pos=(struct Vec3){.x=0,.y=1,.z=-20},
+        .width=4
+      }
+    );
+    Square_render(
+      camera,
+      camera_angle,
+      0,
+      hfov,
+      vfov,
+      renderer,
+      (struct Square){
+        .pos=(struct Vec3){.x=0,.y=1,.z=-20},
+        .width=5
+      }
+    );
+    Square_render(
+      camera,
+      camera_angle,
+      0,
+      hfov,
+      vfov,
+      renderer,
       square2
     );
     // for (int i=0;i<square2.width;i++) {
